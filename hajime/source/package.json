@@ -9,12 +9,14 @@
     "lint:scss": "stylelint 'scss/**/*.scss'"
   },
   "devDependencies": {
-    "@pivanov/vite-plugin-svg-sprite": "^3.1.1",
     "postcss": "^8.5.6",
     "sass": "^1.89.2",
     "stylelint": "^16.21.1",
     "stylelint-config-sass-guidelines": "^12.1.0",
     "stylelint-config-standard-scss": "^15.0.1",
     "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@pivanov/vite-plugin-svg-sprite": "^3.1.2"
   }
 }
