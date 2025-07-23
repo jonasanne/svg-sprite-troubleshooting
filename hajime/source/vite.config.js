@@ -5,10 +5,11 @@ export default {
   root: './',
   plugins: [
     svgSpritePlugin({
-      iconDirs: [resolve(process.cwd(), 'assets/icons')],
+      iconDirs: [resolve(process.cwd(), 'assets/svgs')],
       symbolId: '[dir]-[name]',
       svgDomId: 'svg-sprite',
       inject: 'body-last',
+      fileName: 'svg-sprite.svg',
     }),
   ],
   build: {

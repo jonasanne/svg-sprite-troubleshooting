@@ -7,10 +7,11 @@ settings:
 importers:
 
   .:
-    devDependencies:
+    dependencies:
       '@pivanov/vite-plugin-svg-sprite':
-        specifier: ^3.1.1
-        version: 3.1.1(vite@6.3.5(sass@1.89.2))
+        specifier: ^3.1.2
+        version: 3.1.2(vite@6.3.5(sass@1.89.2))
+    devDependencies:
       postcss:
         specifier: ^8.5.6
         version: 8.5.6
@@ -326,8 +327,8 @@ packages:
     resolution: {integrity: sha512-dfUnCxiN9H4ap84DvD2ubjw+3vUNpstxa0TneY/Paat8a3R4uQZDLSvWjmznAY/DoahqTHl9V46HF/Zs3F29pg==}
     engines: {node: '>= 10.0.0'}
 
-  '@pivanov/vite-plugin-svg-sprite@3.1.1':
-    resolution: {integrity: sha512-slgQmmoxS+aXm/yH5orf821uJTAQFu5O0gL7xl2vCruC4jVaVUlKFDrGbaUfy7jY9n/VKDWManhbSECRKZLSIA==}
+  '@pivanov/vite-plugin-svg-sprite@3.1.2':
+    resolution: {integrity: sha512-1vMY1pTZcfiGcAmJ4k7pWI90IXAaoNq/hRZuyJY1F2QHulc27+63S+AJIKVDqerE+xZh6bpUTMqKyWb25/tQnw==}
     peerDependencies:
       vite: ^2 || ^3 || ^4 || ^5 || ^6 || ^7
 
@@ -1271,7 +1272,7 @@ snapshots:
       '@parcel/watcher-win32-x64': 2.5.1
     optional: true
 
-  '@pivanov/vite-plugin-svg-sprite@3.1.1(vite@6.3.5(sass@1.89.2))':
+  '@pivanov/vite-plugin-svg-sprite@3.1.2(vite@6.3.5(sass@1.89.2))':
     dependencies:
       cheerio: 1.1.2
       chokidar: 4.0.3
