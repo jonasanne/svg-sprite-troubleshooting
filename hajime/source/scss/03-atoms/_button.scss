@@ -1,0 +1,21 @@
+@use '../00-abstracts/colors' as c;
+
+.button-primary {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  background-color: c.$primary;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  border: 1px solid c.$primary;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
